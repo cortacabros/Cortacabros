@@ -10,6 +10,10 @@
 */
 .site {
 	margin: auto;
+	box-shadow: 10px 0 10px -4px #888888, -10px 0 8px -4px #888888;
+}
+.content-area, .content-sidebar {
+    padding-top: 82px;
 }
 .site-content .entry-header,
 .site-content .entry-content,
@@ -18,4 +22,17 @@
 .page-content {
 	margin: 0 auto;
 	max-width: 1024px;
+}
+.site::before {
+    background-color: #3F5264;
+}
+.site-header {
+    background-color: #3F5264;
+	box-shadow: 10px 0 10px -4px #888888, -10px 0 8px -4px #888888;
+}
+.site-footer {
+    background-color: #3F5264;
+}
+.site-description {
+	padding-top: 10px;
 }
