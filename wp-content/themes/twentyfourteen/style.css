@@ -865,8 +865,8 @@ span + .edit-link:before,
 	margin: 0;
 
 	/* Nav-toggle width + search-toggle width - gutter = 86px */
-	/*max-width: -webkit-calc(100% - 86px);
-	max-width:         calc(100% - 86px);*/
+	max-width: -webkit-calc(100% - 86px);
+	max-width:         calc(100% - 86px);
 }
 
 .site-title a,
@@ -1059,7 +1059,7 @@ span + .edit-link:before,
 .site-content .entry-meta,
 .page-content {
 	margin: 0 auto;
-	max-width: 100%;
+	max-width: 474px;
 }
 
 .page-content {
@@ -3435,11 +3435,11 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 783px) {
-/*	.site-title {
+	.site-title {
 		/* Search-toggle width = 48px */
 		max-width: -webkit-calc(100% - 48px);
 		max-width:         calc(100% - 48px);
-	}*/
+	}
 
 	.header-main {
 		padding-right: 0;

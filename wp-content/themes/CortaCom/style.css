@@ -1,0 +1,21 @@
+/*
+ Theme Name:   CortaCabros based on twenty-fourteen
+ Description:  Twenty Fourteen Child Theme
+ Author:       AK
+ Author URI:   http://cortacabros.com
+ Template:     twentyfourteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+.site {
+	margin: auto;
+}
+.site-content .entry-header,
+.site-content .entry-content,
+.site-content .entry-summary,
+.site-content .entry-meta,
+.page-content {
+	margin: 0 auto;
+	max-width: 1024px;
+}
